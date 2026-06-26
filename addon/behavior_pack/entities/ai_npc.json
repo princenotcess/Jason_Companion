@@ -20,18 +20,42 @@
         "height": 1.8
       },
       "minecraft:nameable": {
-        "allow_name_tag_renaming": true
+        "allow_name_tag_renaming": false
       },
       "minecraft:physics": {
         "has_collision": true,
         "has_gravity": true
       },
+
       "minecraft:movement": {
-        "value": 0.0
+        "value": 0.25
       },
+      "minecraft:movement.basic": {},
+      "minecraft:navigation.walk": {
+        "can_path_over_water": false,
+        "avoid_water": true,
+        "avoid_damage_blocks": true
+      },
+
+      "minecraft:behavior.random_stroll": {
+        "priority": 4,
+        "speed_multiplier": 0.6,
+        "xz_dist": 8,
+        "y_dist": 3,
+        "interval": 120
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 5
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 6,
+        "look_distance": 8.0,
+        "probability": 0.02
+      },
+
       "minecraft:pushable": {
         "is_pushable": true,
-        "is_pushable_by_piston": true
+        "is_pushable_by_piston": false
       },
       "minecraft:can_climb": {}
     }
