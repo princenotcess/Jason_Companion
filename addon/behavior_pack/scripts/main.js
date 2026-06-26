@@ -3,7 +3,7 @@ import { ModalFormData } from "@minecraft/server-ui";
 import { HttpRequest, HttpRequestMethod, HttpClient, HttpHeader } from "@minecraft/server-net";
 
 // ✏️  Your Railway server URL — no trailing slash
-const SERVER_URL = "https://YOUR_RAILWAY_URL.railway.app/npc-chat";
+const SERVER_URL = "https://jasoncompanion-production.up.railway.app/npc-chat";
 
 const http = new HttpClient();
 
