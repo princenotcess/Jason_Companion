@@ -57,7 +57,15 @@
         "is_pushable": true,
         "is_pushable_by_piston": false
       },
-      "minecraft:can_climb": {}
+      "minecraft:can_climb": {},
+
+      "minecraft:interact": {
+        "interactions": [
+          {
+            "interact_text": "action.interact.talk_to_jason"
+          }
+        ]
+      }
     }
   }
 }
