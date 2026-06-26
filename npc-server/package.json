@@ -1,0 +1,13 @@
+{
+  "name": "npc-server",
+  "version": "1.0.0",
+  "description": "Simple NPC chat API proxy for Minecraft",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "@google/generative-ai": "^0.21.0"
+  }
+}
