@@ -28,7 +28,7 @@
       },
 
       "minecraft:movement": {
-        "value": 0.25
+        "value": 0.4
       },
       "minecraft:movement.basic": {},
       "minecraft:navigation.walk": {
@@ -39,10 +39,10 @@
 
       "minecraft:behavior.random_stroll": {
         "priority": 4,
-        "speed_multiplier": 0.6,
-        "xz_dist": 8,
+        "speed_multiplier": 1.0,
+        "xz_dist": 10,
         "y_dist": 3,
-        "interval": 120
+        "interval": 60
       },
       "minecraft:behavior.random_look_around": {
         "priority": 5
